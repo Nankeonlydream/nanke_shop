@@ -1,0 +1,489 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.el-cascader-node__label {
+  font-weight: bold;
+}
+
+.el-tag {
+  font-weight: bold;
+  font-size: 13px !important;
+  border: none !important;
+  border-radius: 5px !important;
+  background: linear-gradient(90deg, rgba(50, 255, 126, 0.76), rgba(238, 126, 255, 0.78)) !important;
+  box-shadow: 0 0 8px #cecbaa !important;
+  transition: all 0.2s ease-in-out !important;
+  color: #fff !important;
+}
+.el-tag--success {
+  font-weight: bold;
+  font-size: 13px !important;
+  border: none !important;
+  border-radius: 5px !important;
+  background: linear-gradient(90deg, rgba(116, 185, 255, 0.79), rgba(253, 121, 168, 0.75)) !important;
+  box-shadow: 0 0 8px #cecbaa !important;
+  transition: all 0.2s ease-in-out !important;
+  color: #fff !important;
+}
+.el-tag--warning{
+  font-weight: bold;
+  font-size: 13px !important;
+  border: none !important;
+  border-radius: 5px !important;
+  background: linear-gradient(90deg, rgba(255, 195, 18, 0.79), rgba(255, 77, 77, 0.69)) !important;
+  box-shadow: 0 0 8px #cecbaa !important;
+  transition: all 0.2s ease-in-out !important;
+  color: #fff !important;
+}
+
+.el-tag__close {
+  color: #fff !important;
+}
+
+.el-tag__close:hover {
+  background-color: #000000 !important;
+}
+
+.el-button--default {
+  border: none !important;
+  border-radius: 10px !important;
+  background: linear-gradient(90deg, rgb(154, 211, 254), rgb(253, 189, 248)) !important;
+  box-shadow: 0 0 8px rgb(154, 161, 254) !important;
+  transition: all 0.2s ease-in-out !important;
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 15px !important;
+}
+
+.el-button--default span {
+  font-size: 15px;
+  font-family: 楷体, serif;
+}
+
+.el-button--default:hover {
+  color: #fff !important;
+  box-shadow: -1px -1px 5px rgb(163, 195, 247), 2px 2px 10px rgb(181, 155, 241) !important;
+}
+
+.el-button--default:active {
+  box-shadow: 0 0 2px rgb(207, 192, 248), inset -1px -1px 2px rgb(192, 173, 244) !important;
+}
+
+
+.el-button--default.is-disabled {
+  opacity: .7!important;
+  border: none !important;
+  border-radius: 10px !important;
+  background: linear-gradient(90deg, #a5b1c2, #d1d8e0) !important;
+  box-shadow: 0 0 8px #899195 !important;
+  color: #fff !important;
+  font-size: 15px !important;
+}
+
+.el-alert__title {
+  font-size: 17px !important;
+  font-family: 华文新魏;
+  moz-user-select: -moz-none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.el-notification {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  border: none !important;
+  opacity: .9;
+  border-radius: 10px !important;
+  background: linear-gradient(90deg, #fd79a8, rgb(253, 189, 248)) !important;
+  box-shadow: 0 0 8px #f99bbd !important;
+}
+
+.el-skeleton {
+  margin-top: 20px !important;
+}
+
+.treeTable {
+  font-size: 14px !important;
+}
+
+.el-skeleton__item {
+  width: 100% !important;
+  height: 38px !important;
+}
+
+.el-notification__content p {
+  font-size: 18px !important;
+  font-family: 楷体, serif;
+  color: #fff !important;
+}
+
+/* 全局滚动条样式统一 */
+::-webkit-scrollbar {
+  width: 8px; /*滚动条宽度*/
+  height: 8px; /*滚动条高度*/
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+  border-radius: 10px; /*滚动条的圆角*/
+  background-color: #ededed; /*滚动条的背景颜色*/
+}
+
+html, body, #app {
+  height: 100%;
+  min-width: 1366px;
+}
+
+:root {
+  --color-menu-bg: #ffffff;
+  --font-color-mi: #000;
+  --font-color-mi-hover: #f368e0;
+  --color-bg-mi-hover: #ececec;
+  --border-radius-mi: 2px;
+  --transition-menu-time: 0.2s;
+  --color-line-bg: #d3d3d3;
+  --bg-url: url("https://pic.imgdb.cn/item/619472832ab3f51d9120031d.jpg")
+}
+
+.el-breadcrumb {
+  margin-bottom: 15px;
+  font-size: 16px !important;
+  color: #000;
+  font-family: 楷体, serif;
+}
+
+.el-table .cell {
+  overflow: visible !important;
+}
+
+.el-table {
+  margin-top: 20px;
+  font-size: 14px !important;
+}
+
+.el-pagination {
+  margin-top: 20px;
+  font-family: 楷体, serif;
+}
+
+.el-pagination > span {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+
+
+.el-tree-node__label {
+  color: #000;
+  font-weight: bold;
+  font-size: 14px !important;
+}
+
+.el-dialog {
+  background: url("https://pic.imgdb.cn/item/61965a192ab3f51d914ca66a.png") !important;
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 70%) !important;
+  border-radius: 20px !important;
+}
+
+.el-dialog__title {
+  font-family: 楷体, serif;
+  font-weight: bold;
+  color: black !important;
+}
+
+.el-dialog .dialog-message {
+  color: #fff !important;
+  font-size: 18px;
+}
+
+.el-form-item .el-form-item__label {
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  font-family: 楷体, serif;
+}
+
+.el-tabs__item {
+  font-weight: bold !important;
+}
+
+.el-form-item__error {
+  color: orangered !important;
+  margin-top: 6px;
+  font-family: 楷体, serif;
+  font-size: 14px !important;
+}
+
+.el-dialog__body {
+  text-align: center;
+}
+
+.el-form-item {
+  margin-bottom: 40px !important;
+}
+
+.el-input__inner {
+  font-size: 15px !important;
+  width: 100% !important;
+  font-family: 楷体, serif;
+}
+
+.el-dialog__close {
+  color: #000000 !important;
+  font-size: 20px;
+}
+
+.el-message--success {
+  border: none !important;
+  border-radius: 15px !important;
+  background: linear-gradient(90deg, #55efc4, #74b9ff) !important;
+  box-shadow: 0 0 8px #90fedf !important;
+}
+
+.el-message--error {
+  border: none !important;
+  border-radius: 15px !important;
+  background: linear-gradient(90deg, #fd79a8, rgb(253, 189, 248)) !important;
+  box-shadow: 0 0 8px #f99bbd !important;
+}
+
+.el-message-box__btns > .el-button--default {
+  border: none !important;
+  opacity: .9;
+  border-radius: 10px !important;
+  background: linear-gradient(90deg, #fd79a8, rgb(253, 189, 248)) !important;
+  box-shadow: 0 0 8px #f99bbd !important;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  font-size: 12px !important;
+}
+
+.el-message-box__btns > .el-button--default:hover {
+  color: #fff;
+}
+
+.el-message--info {
+  border: none !important;
+  border-radius: 15px !important;
+  background: linear-gradient(90deg, #7f8fa6, #f5f6fa) !important;
+  box-shadow: 0 0 8px #7f8fa6 !important;
+}
+
+.el-message__icon {
+  color: white !important;
+}
+
+.el-message__content {
+  color: white !important;
+  font-family: 楷体, serif;
+  font-size: 17px !important;
+}
+
+.el-message-box {
+  border: none !important;
+  background: url("https://pic.imgdb.cn/item/61965a192ab3f51d914ca66a.png") no-repeat !important;
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 70%) !important;
+  border-radius: 20px !important;
+  font-weight: bold;
+}
+
+.el-message-box__header span, .el-message-box__close {
+  font-size: 15px !important;
+  color: black !important;
+}
+
+.el-message-box__title, .el-message-box__message {
+  color: black !important;
+  font-size: 14px !important;
+}
+
+.el-message-box__btns > .el-button--primary {
+  border: none !important;
+  border-radius: 10px !important;
+  background: linear-gradient(90deg, #55efc4, #74b9ff) !important;
+  box-shadow: 0 0 8px #90fedf !important;
+  transition: all 0.2s ease-in-out;
+  font-size: 12px !important;
+  opacity: .9;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  font-weight: bold;
+}
+
+/* 重置按钮 */
+.buttonReset {
+  border: none;
+  outline: none;
+  width: 5rem;
+  height: 2.3rem;
+  border-radius: 1rem;
+  background: linear-gradient(90deg, rgb(232, 65, 24), rgb(255, 195, 18));
+  box-shadow: 0 0 8px rgb(227, 82, 46);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-size: 17px;
+  color: #ffffff;
+  font-family: 楷体, serif;
+  font-weight: 600 !important;
+  margin-right: 10px;
+  opacity: .8;
+}
+
+.buttonReset:hover {
+  box-shadow: 1px 1px 10px rgb(251, 86, 45), 1px 1px 10px rgb(245, 207, 94);
+}
+
+.buttonReset:active {
+  box-shadow: 0 0 2px rgb(255, 126, 94), 0 0 2px rgb(247, 203, 75);
+}
+
+/* 取消按钮 */
+.buttonPlease {
+  border: none;
+  outline: none;
+  width: 5rem;
+  height: 2.3rem;
+  border-radius: 1rem;
+  background: linear-gradient(90deg, rgb(244, 97, 168), rgb(37, 204, 247));
+  box-shadow: 0 0 8px rgb(87, 162, 248);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-size: 17px;
+  font-family: 楷体, serif;
+  color: #ffffff;
+  font-weight: 600 !important;
+  margin-right: 10px;
+  opacity: .8;
+}
+
+.buttonPlease:hover {
+  box-shadow: 1px 1px 10px rgb(251, 147, 197), 1px 1px 10px rgb(81, 215, 249);
+}
+
+.buttonPlease:active {
+  box-shadow: 0 0 2px rgb(229, 133, 167), 0 0 2px rgb(131, 177, 230);
+}
+
+/* 确认按钮 */
+.buttonConfirm {
+  border: none;
+  outline: none;
+  width: 5rem;
+  height: 2.3rem;
+  border-radius: 1rem;
+  background: linear-gradient(90deg, rgb(217, 128, 250), rgb(123, 237, 159));
+  box-shadow: 0 0 4px rgb(217, 128, 250);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  opacity: .9;
+  font-size: 17px;
+  font-family: 楷体, serif;
+  color: #ffffff;
+  font-weight: 600 !important;
+}
+
+.buttonConfirm:hover {
+  box-shadow: 1px 1px 10px rgb(209, 156, 229), 1px 1px 10px rgb(134, 240, 167);
+}
+
+.buttonConfirm:active {
+  box-shadow: 0 0 2px rgb(204, 99, 242), 0px 0px 2px rgb(180, 255, 204);
+}
+.el-select-dropdown__item {
+  font-weight: bold;
+}
+.button {
+  border: none;
+  outline: none;
+  width: 5.5rem;
+  height: 2.3rem;
+  border-radius: 3rem;
+  background: linear-gradient(90deg, rgb(154, 211, 254), rgb(253, 189, 248));
+  box-shadow: 0 0 8px rgb(154, 161, 254);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #ffffff;
+  font-family: 楷体, serif;
+}
+
+.button:hover {
+  box-shadow: -2px -2px 5px rgb(163, 195, 247), 2px 2px 10px rgb(181, 155, 241);
+}
+
+.button:active {
+  box-shadow: 0 0 2px rgb(207, 192, 248), inset -1px -1px 2px rgb(192, 173, 244);
+}
+
+.el-steps {
+  margin: 30px 0;
+}
+
+.el-step__title {
+  font-size: 14px !important;
+  font-family: 楷体, serif;
+}
+
+.ql-editor {
+  min-height: 240px !important;
+}
+
+.mini-shadow-button-primary {
+  box-shadow: 0 0 8px rgb(141, 43, 245);
+  transition: all 0.2s ease-in-out;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  font-family: 楷体, serif;
+}
+
+.mini-shadow-button-primary:hover {
+  box-shadow: -1px -1px 5px rgb(200, 142, 245), 1px 1px 4px rgb(190, 107, 231);
+}
+
+.mini-shadow-button-primary:active {
+  box-shadow: 1px 1px 2px rgb(209, 154, 245), inset -1px -1px 2px rgb(197, 132, 230);
+}
+
+.mini-shadow-button-danger {
+  font-weight: bold !important;
+  font-size: 14px !important;
+  font-family: 楷体, serif;
+  box-shadow: 0 0 8px rgb(244, 64, 63);
+  transition: all 0.2s ease-in-out;
+
+}
+
+.mini-shadow-button-danger:hover {
+  box-shadow: -1px -1px 5px rgb(227, 79, 79), 1px 1px 4px rgb(234, 98, 98);
+}
+
+.mini-shadow-button-danger:active {
+  box-shadow: 1px 1px 2px rgb(225, 112, 85), inset -1px -1px 2px rgb(255, 118, 117);
+}
+
+.mini-shadow-button-warning {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  font-family: 楷体, serif;
+  box-shadow: 0 0 8px rgb(184, 111, 29);
+  transition: all 0.2s ease-in-out;
+}
+
+.mini-shadow-button-warning:hover {
+  box-shadow: -1px -1px 5px rgb(246, 229, 141), 1px 1px 4px rgb(249, 202, 36);
+}
+
+.mini-shadow-button-warning:active {
+  box-shadow: 1px 1px 2px rgb(255, 190, 118), inset -1px -1px 2px rgb(240, 147, 43);
+}
+
